@@ -8,8 +8,8 @@ int main(void)
 	char a;
 	int b;
 	float c;
-printf("size of a char: %lu bytes(s)\n", sizeof(a));
-printf("size of an int: %lu bytes(s)\n", sizeof(b));
-printf("size of a float: %lu bytes(s)\n", sizeof(c));
+printf("Size of a char: %lu bytes(s)\n", sizeof(a));
+printf("Size of an int: %lu bytes(s)\n", sizeof(b));
+printf("Size of a float: %lu bytes(s)\n", sizeof(c));
 return (0);
 }
