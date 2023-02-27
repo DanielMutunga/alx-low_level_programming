@@ -8,11 +8,11 @@
  **/
 void puts2(char *str)
 {
-int y = 0;
-while (str[y] != '\0')
+int i = 0;
+while (str[i] != '\0')
 {
-if (y % 2 == 0)
-_putchar(str[y]);
+if (i % 2 == 0)
+_putchar(str[i]);
 i++;
 }
 
