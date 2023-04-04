@@ -13,20 +13,20 @@
  */
 listint_t **_ra(listint_t **list, size_t size, listint_t *new)
 {
-	listint_t **list;
+	listint_t **list1;
 	size_t j;
 
-	list = malloc(size * sizeof(listint_t *));
-	if (list == NULL)
+	list1 = malloc(size * sizeof(listint_t *));
+	if (list1 == NULL)
 	{
 		free(list);
 		exit(98);
 	}
 	for (j = 0; j < size - 1; j++)
-		list[i] = list[j];
-	list[j] = new;
+		list1[i] = list[j];
+	list1[j] = new;
 	free(list);
-	return (list);
+	return (list1);
 }
 
 /**
